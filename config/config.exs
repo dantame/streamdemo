@@ -31,4 +31,4 @@ use Mix.Config
 #
 
 config :streamdemo,
-        github_key: "4328e339c4e41bf86a6cd911888408ad7fdf794b"
+        github_key: Application.get_env(:streamdemo, :github_key)
